@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./contents/Header";
 import './Global.scss';
+import { Counter } from "./contents/Counter";
 
 const App = () : JSX.Element => {
   return (
     <div className="app-container">
-      <Header name="Header" />
+      <Counter />
     </div>
   );
 }
